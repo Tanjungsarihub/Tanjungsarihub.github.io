@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>JNC Edukasi</title>
+  <title>SIPENING</title>
   <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/016/716/181/large_2x/website-3d-icon-png.png" type="image/x-icon">
   <style>
     html, body {
@@ -38,7 +38,7 @@
   <div class="iframe-container">
     <div class="loader" id="loader">Loading app...</div>
     <iframe 
-      src="https://script.google.com/macros/s/AKfycbze5HY797QGzerkC48X94vWFjSKt1NokYQ8yLkbskiMMBb_hFCGW4W1N1bh2yYmXmIK/exec" 
+      src="https://script.google.com/macros/s/AKfycbxCiENgXcds1yqmq1nT1JlpvYjqKuhxE6NJ7gNuScZAyKNCMMRQTqQIe5Zjqr7TsTfa/exec" 
       title="JNCfy Web App"
       onload="document.getElementById('loader').style.display='none';"
       allowfullscreen>
