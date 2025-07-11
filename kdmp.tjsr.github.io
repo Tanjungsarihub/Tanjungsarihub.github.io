@@ -38,7 +38,7 @@
   <div class="iframe-container">
     <div class="loader" id="loader">Loading app...</div>
     <iframe 
-      src="https://script.google.com/macros/s/AKfycbze5HY797QGzerkC48X94vWFjSKt1NokYQ8yLkbskiMMBb_hFCGW4W1N1bh2yYmXmIK/exec" 
+      src="https://script.google.com/macros/s/AKfycbzyNnIQ21iw8t4lGphk8-CB2T55ECKLkBvYzJ-4bCoGCsbuJGlWHgxiol_aLc3XICzy/exec" 
       title="JNCfy Web App"
       onload="document.getElementById('loader').style.display='none';"
       allowfullscreen>
