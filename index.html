@@ -10,18 +10,13 @@
       margin: 0;
       padding: 0;
       height: 100%;
-      background-color: #00000; /* Tambahkan warna latar agar terlihat kontras */
+      overflow: hidden;
       font-family: sans-serif;
     }
     .iframe-container {
       position: relative;
-      width: 100%;          /* Mengurangi lebar menjadi 90% */
-      max-width: 1000px;   /* Memberikan batas maksimal lebar */
-      height: 90vh;        /* Mengurangi tinggi menjadi 90% dari viewport */
-      margin: 5vh auto;    /* Memberikan jarak atas-bawah dan membuat posisi di tengah */
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Menambahkan bayangan agar terlihat rapi */
-      border-radius: 8px;  /* Membuat sudut melengkung */
-      overflow: hidden;    /* Memastikan konten di dalam tidak keluar dari border-radius */
+      width: 100%;
+      height: 100vh;
     }
     iframe {
       width: 100%;
@@ -35,6 +30,7 @@
       transform: translate(-50%, -50%);
       font-size: 1.2rem;
       color: #666;
+      z-index: 10;
     }
   </style>
 </head>
