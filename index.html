@@ -10,13 +10,18 @@
       margin: 0;
       padding: 0;
       height: 100%;
-      overflow: hidden;
+      background-color: #f4f4f4; /* Tambahkan warna latar agar terlihat kontras */
       font-family: sans-serif;
     }
     .iframe-container {
       position: relative;
-      width: 100%;
-      height: 100vh;
+      width: 90%;          /* Mengurangi lebar menjadi 90% */
+      max-width: 1000px;   /* Memberikan batas maksimal lebar */
+      height: 90vh;        /* Mengurangi tinggi menjadi 90% dari viewport */
+      margin: 5vh auto;    /* Memberikan jarak atas-bawah dan membuat posisi di tengah */
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Menambahkan bayangan agar terlihat rapi */
+      border-radius: 8px;  /* Membuat sudut melengkung */
+      overflow: hidden;    /* Memastikan konten di dalam tidak keluar dari border-radius */
     }
     iframe {
       width: 100%;
@@ -30,7 +35,6 @@
       transform: translate(-50%, -50%);
       font-size: 1.2rem;
       color: #666;
-      z-index: 10;
     }
   </style>
 </head>
@@ -38,7 +42,7 @@
   <div class="iframe-container">
     <div class="loader" id="loader">Loading app...</div>
     <iframe 
-      src="https://script.google.com/macros/s/AKfycbw09f2Cbn15HeaVx2gtakdEoJA1bzIfaMENxS-jYeK6pqyvOWezihm0FuoygRhI3StY/exec" 
+      src="https://script.google.com/macros/s/AKfycbzh4627bCkNGGRALIGCTdiG-W488dvehJKMEWTDJojt40ziT8fu0GHgq20fwtg-lJed/exec" 
       title="SD N Tanjungsari"
       onload="document.getElementById('loader').style.display='none';"
       allowfullscreen>
